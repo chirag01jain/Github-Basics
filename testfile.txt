@@ -20,5 +20,7 @@ Linux commands
 
 git add . 
 [. to add untracked file - can be checked by git status]
+
+git pull origin master
 =========
 
