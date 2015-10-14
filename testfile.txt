@@ -1,0 +1,21 @@
+This is a test txt file for Github ::
+
+1) git add filename
+2) git commit -m "message to add"
+3) git push -u origin master
+
+Whenever we clone, a origin gets created. Otherwise need to::
+
+>> git remote add origin 'cloneURL'
+
+======
+git config --global user.name "Chirag"
+git config --global user.email "Email ID"
+git clone 'cloneURL'
+git commit -help
+git status
+git log
+clear
+Linux commands
+=========
+
