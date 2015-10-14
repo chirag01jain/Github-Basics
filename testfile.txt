@@ -16,6 +16,9 @@ git commit -help
 git status
 git log
 clear
-Linux commands
+Linux commands 
+
+git add . 
+[. to add untracked file - can be checked by git status]
 =========
 
