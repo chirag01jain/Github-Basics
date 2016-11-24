@@ -12,8 +12,18 @@ Collaboration - Two ppl doing same thing on same file :: unify together and merg
 1) Git is locally enabled, you can version control items on local pc
 2) History tracking - Time & Version :: Create document, spelling corrections, Grammar fix, color change, feature desc
 3) Team-centric
+Idea behind Git ::
+4) More focused on Content, not files
+5) Opt-in which file want to participate in next commit using (add) instead of opt-out
+6) Open not locked, let people offer contributions
+7) Distributed not centralized :: Very simple to send large quantity of across continents, over slow bandwidth lines
+8) Exchange of code = conversations, not cutoffs
+9) Focus on people not tools :: oreil.ly/githubsocial
+10) Journal, not backup :: Hisotry looks like journal of changes :: http://bit.ly/goodcommitmessages
+11) Anywhere, not only online :: Reason why its better than other complicated version controls
 
-Developer Dana:
+
+Deve loper Dana:
 
 git init myproject :: initializes myproject :: create directory
 cd myproject
