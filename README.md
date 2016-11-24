@@ -1,8 +1,4 @@
-# Github-Basics
-
-=============
-
-`Github-Basics`
+## Github-Basics
 
 This repository describes how to make use of Github and its intended functionalities. 
 
