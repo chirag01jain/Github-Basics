@@ -1,0 +1,10 @@
+mkdir localRepo 
+vim localRepo1
+vim localrepo2 etc..
+git init
+# http://www.screencast.com/t/8PWTiFLADg
+git add --all 
+git commit -m "first commit"
+# Specify the repo to which you want to push contents
+git remote add origin https://github.com/chirag01jain/Chef.git
+git push -u origin master
