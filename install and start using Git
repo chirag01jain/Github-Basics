@@ -2,10 +2,12 @@ https://git-scm.com/downloads :: Basic on OS
 
 Linux RHEL/CentOS/Fedora :: yum install git 
 
-1) Configure Username and email address  :: Local records - Used for who to give credits for your work in history
+1) Configure Username and email address  :: Local records - Who gets credits for your work in history
 
 git config --global user.name "Chirag OPS Engineer"
 git config --global user.email "chirag01jain@gmail.com"
+
+# git config --global color-ui true           --> Pretty command line colors.
 
 2) Create your first git project
 
@@ -14,10 +16,25 @@ git init chefRecipes
 cd chefRecipes
 vim recipe1.rb
 git add recipe1.rb
-# Above will add the file to version control, which means we want above file to participate in next commit
+# Above will add the file to version control, means we want above file to participate in next commit - http://screencast.com/t/8PWTiFLADg
 git commit -m"My first commit"
 # Above means recording the state of file at the given point in time using commit, -m= message description
 
 #### Repeat, create new files, add files to version control, commit to record the states to historical events ####
+## Help ::
 
+git help
+git help config
+git status -> To check what changes since your last commit.
+git log -> Get timeline history
 
+Note: If directory is already there, simply type:: git init (It will create repo - .git in same directory).
+
+Bullet points for summary ::
+
+a) Craete a file - starts as untracked
+b) Add file say to staging area - Getting ready for snapshot
+c) Commit changes - A snapshot of those on the stage
+d) Modify file and add some stuff
+e) Add again to stage
+f) Commit changes
