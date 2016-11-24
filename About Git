@@ -1,0 +1,25 @@
+GIT is fast and modern implementation of Version control, provides history of content changes, facilitates collabrative changes to files, easy to use for any type of knowledge worker.
+
+Daily tasks: One who write code
+
+a) Create things b) save things
+c) Edit things
+d) Save again things --> Here version control helps
+
+Graphical client - Github, sourcetree, console
+Collaboration - Two ppl doing same thing on same file :: unify together and merge
+
+1) Git is locally enabled, you can version control items on local pc
+2) History tracking - Time & Version :: Create document, spelling corrections, Grammar fix, color change, feature desc
+3) Team-centric
+
+Developer Dana:
+
+git init myproject :: initializes myproject :: create directory
+cd myproject
+git add . :: Puts the file in holding zone, ready to Comment
+git commit -m"Import all the code" :: Permanently record history version or snapshot that existed at given point of time
+git push
+git pull
+git merge danasfeature
+git log --graph --decorate --abbrev-commit --all --pretty=online
