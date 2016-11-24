@@ -1,8 +1,11 @@
-# TestGitHub
+# Github-Basics
 
 =============
 
-Github Tutorials
+`Github-Basics`
 
-TestGithub is a repository for showing the bare minimums of Github and manoeuvre, functions etc..
+This repository describes how to make use of Github and its intended functionalities. 
 
+For formatting your tests, use steps outlined here:
+
+https://help.github.com/articles/basic-writing-and-formatting-syntax/
